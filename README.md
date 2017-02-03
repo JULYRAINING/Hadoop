@@ -9,10 +9,12 @@ this is my hadoop demo
 ``
   apt-get install openssh-server
 ``
+
 3.start openssh
-``
+```
   /etc/init.d/ssh start
-``
+```
+
 4.configure three xml files : core-site.xml hdfs-site.xml mapred-site.xml. under the folder "etc/hadoop"
   core-site.xml:
   ```
