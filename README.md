@@ -56,8 +56,12 @@ core-site.xml:
   ```
 
 6.format above directory
-  hadoop namenode -format
+   ```
+   hadoop namenode -format
+    ```
 
 7.start hadoop
+ ```
   start-dfs.sh
   start-yarn.sh
+   ```
