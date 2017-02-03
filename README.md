@@ -3,10 +3,13 @@ this is my hadoop demo
 
 1.install jdk hadoop 
   go to website and download
-2.install openssh
+2.install op
+enssh
   apt-get install openssh-server
+
 3.start openssh
   /etc/init.d/ssh start
+
 4.configure three xml files : core-site.xml hdfs-site.xml mapred-site.xml. under the folder "etc/hadoop"
   core-site.xml:
   ```
@@ -36,6 +39,7 @@ this is my hadoop demo
 	</property>
 </configuration>
  ```
+
 5.change hdfs's root directory
 core-site.xml:
   ```
@@ -50,8 +54,10 @@ core-site.xml:
 	</property>
 </configuration>
   ```
+
 6.format above directory
   hadoop namenode -format
+
 7.start hadoop
   start-dfs.sh
   start-yarn.sh
