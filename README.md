@@ -2,14 +2,17 @@
 this is my hadoop demo
 
 1.install jdk hadoop 
+  
   go to website and download
-2.install op
-enssh
+  
+2.install openssh
+``
   apt-get install openssh-server
-
+``
 3.start openssh
+``
   /etc/init.d/ssh start
-
+``
 4.configure three xml files : core-site.xml hdfs-site.xml mapred-site.xml. under the folder "etc/hadoop"
   core-site.xml:
   ```
